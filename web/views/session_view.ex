@@ -1,3 +1,3 @@
 defmodule Rumbl.SessionView do
-  use Rumbl.Web, :vie
+  use Rumbl.Web, :view
 end
