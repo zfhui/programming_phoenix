@@ -22,6 +22,11 @@
     <%= @video.description %>
   </li>
 
+  <li>
+    <strong>View count:</strong>
+    <%= @video.view_count %>
+  </li>
+
 </ul>
 
 <%= link "Edit", to: video_path(@conn, :edit, @video) %>
